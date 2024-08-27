@@ -1,0 +1,42 @@
+/* Contenedor principal de la navbar */
+.navbar {
+    background: #d5050f;
+    width: 100%;
+    height: 80px; /* Ajusta la altura de la navbar si es necesario */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+/* Logo */
+.logo img {
+    height: 40px; /* Ajusta la altura fija del logo */
+    width: auto; /* Ajusta el ancho automáticamente para mantener la proporción */
+    cursor: pointer; /* Cambia el cursor cuando pasa sobre el logo */
+}
+
+/* Contenedor de la barra de búsqueda y los íconos */
+.navbarActions {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre los elementos */
+    flex-grow: 1; /* Permite que este contenedor se expanda para ocupar el espacio disponible */
+    justify-content: flex-end; /* Alinea los elementos al inicio del contenedor */
+}
+
+/* Ajustes específicos para la barra de búsqueda */
+.searchbar {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos transparentes para íconos */
+.transparentIcon{
+    background-color: transparent !important;
+    color: white; /* Mantiene el color del icono según el contexto */
+    border: none; /* Elimina cualquier borde que pueda estar presente */
+    font-size: 1.5em; /* Agranda el tamaño del icono */
+}

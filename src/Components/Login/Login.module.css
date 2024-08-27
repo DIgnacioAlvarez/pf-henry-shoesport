@@ -1,0 +1,113 @@
+
+/* Fondo principal */
+.background {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.logInContainer {
+    background-color: #dfdfdf;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Estilo del formulario */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Contenedor de entradas */
+.inputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Estilo de la imagen del logo */
+.logo {
+    width: 50%;
+    max-width: 150px;
+}
+
+/* Contenedor de cada input y su label */
+.inputWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+/* Estilo del texto del label */
+.label {
+    width: 6rem;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo del input */
+.inputText {
+    width: 12rem;
+}
+
+/* Contenedor de errores */
+.error {
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+/* Estilo del botón */
+.button {
+    margin: 5px 0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #949494 !important;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Estilo del botón de Google */
+.googleButton {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Contenedor del botón de Google */
+.googleLogin {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo del divisor */
+.divider {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Contenedor del botón de Sign Up */
+.signUpContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
